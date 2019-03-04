@@ -1,0 +1,47 @@
+.hero.is-primary.is-bold {
+  background-color: ;
+}
+
+
+
+.tick line,
+path.domain {
+  stroke: #bbbbbb;
+}
+
+text.axis-title, text.legendTitle {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#labels text {
+  font-size: 11px;
+  text-shadow: 1px 1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, -1px -1px 0 #fff;
+}
+
+#color-axis path {
+  display: none;
+}
+
+.tick text, .legendCells text.label {
+  font-size: 9px;
+  fill: #666666;
+  font-weight: normal;
+}
+
+#color-axis line {
+  stroke: none;
+}
+
+/* example of fancy css selection */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes */
+#color-axis g.tick:not(:nth-child(2)):not(:last-child) line {
+  stroke: black;
+  stroke-width: 2;
+}
+
+.legendCells circle.swatch {
+  fill: none;
+  stroke: #888888;
+  stroke-width: 2;
+}
