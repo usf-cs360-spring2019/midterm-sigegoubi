@@ -124,7 +124,7 @@
         <b><font size="4">Bubble Chart (Vis #2):</font></b><br/><br/>
         Xue Feng measures San Francisco Fire Department efficieny based on 41 different regions/districts of SF. There are 6 original data categories (from our filtered dataset) being used (Details are shown below). Two(<em>Call Number</em> and <em>Neighborhood District</em>) of them are used directly to generate the bubble chart visualization, and the other three are used for further data processing and generates three other new categories for the visualization.
         <br/><br/>
-        Some case numbers have multiple reports because different units are assigned to a same incident. Therefore, <b>1)</b> Xue Feng merged rows with same <em>Call Number</em> into a single row; <b>2)</b> When measuring new categories: <em>Received DtTm</em> or <em>Dispatch DtTm</em> is used to calculate the time differences. The formula is result = (latest[minuend] - the earliest[subtrahend]) among all the multiple rows with the same <em>Call Number</em>.<br/>
+        Some case numbers have multiple reports because different units are assigned to a same incident. Therefore, <b>1)</b> Xue Feng merged rows with same <em>Call Number</em> into a single row; <b>2)</b> When measuring new categories: <em>Received Time to Dispatch Time</em> or <em>Dispatch Time to On Scene Time</em>, Xue Feng calculates the time difference of each single <em>Call Number</em> that has multiple rows by using the formula: result = (latest[minuend] - the earliest[subtrahend]).<br/>
         </br>
 
         <b>Original Field Names:</b><br/>
