@@ -15,7 +15,7 @@
 
 <!-- body -->
 <body>
-
+  <link rel="stylesheet" href="style1.css">
   <!-- header -->
   <section class="hero is-primary is-bold">
     <!-- todo: change assignment and name -->
@@ -101,34 +101,37 @@
 
   <!-- todo: add sections as necessary -->
   <section class="section">
-    <div class="container content">
+    <div class="container content" style="text-align:center;">
       <!-- todo: modify as necessary (or move visualizations to separate pages) -->
-      <h2>Visualization by Jiadong Wu</h2>
+      <h2>Heatmap Comparison between Rich Neighborhoods and Poor Neighborhoods on Response Time</h2>
+    </div>
 
-      <svg width="100%" height="400" style="background-color: whitesmoke; border: 1px solid black;">
+    <div id="vis" style="text-align:center;">
+      <svg id = "heatmap" style="background-color: #eae5e3">
       </svg>
+      <script src="https://d3js.org/d3.v4.min.js"></script>
+      <script src="https://d3js.org/d3-color.v1.min.js"></script>
+      <script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
+      <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js" integrity="sha256-qo76Vs9B6JAALbrTn+PcN1r09hbNLd2M78V19glOMeU=" crossorigin="anonymous"></script>
+      <script src="heatmap.js"></script>
+    </div>
 
+
+    <br>
+
+    <div class="container content" >
+      <h3>Caption</h3>
+      <p>
+        The above chart shows the median parent household income (adjusted for inflation) versus mobility rate, calculated as the percent of students with parents in the bottom 20% of income distribution that reach the top 20% in income distribution. Circles are sized by average number of students per cohort, and colored by median child individual earnings in 2014 (rounded to the nearest $100). According to the average living cost of a single person in California, mid-point of the color legend represent the amount of $55,000.
+      </p>
       <h3>Interpretation</h3>
-
       <p>
-        If appropriate, provide a brief discussion of how to interpret this visualization (e.g. how the data is encoded) and how to interact with this visualization. Some of this discussion may not be necessary depending on the legends provided with the visualization.
-      </p>
-
-      <h3>Discussion</h3>
-
-      <p>
-        If appropriate, provide a brief discussion of the primary goal and findings of the visualization, any challenges encountered creating the visualization, and any other context as required by the assignment.
-      </p>
-
-      <h3>Credit</h3>
-
-      <p>
-        If appropriate, provide credit for the dataset, any code used, and design inspirations here. Unsufficient discussion here is a violation of the <a href="/syllabus.html#cheating-policy">academic honesty policy</a> and may result in an F grade for the assignment or the <em>entire</em> course.
+        In this bubble chart, the only difference with in-class example is it colored by "Median Child Earnings". While observing the bubble chart, we can find that child with low median parent income tends to earn low income as well even the university he or she went has a high mobility rate.
       </p>
     </div>
   </section>
 
-  </section>
 
   <!-- footer -->
   <footer class="footer">

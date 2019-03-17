@@ -1,0 +1,241 @@
+﻿Hour,Neighbor,EfficiencyMin
+0,West of Twin Peaks,6.967741935
+0,Visitacion Valley,9.573770492
+0,South of Market,6.468315301
+0,Seacliff,6.666666667
+0,Presidio Heights,7.19047619
+0,Potrero Hill,6.288888889
+0,Pacific Heights,6.039473684
+0,Nob Hill,4.795031056
+0,Chinatown,6.676470588
+0,Bayview Hunters Point,8.792792793
+1,West of Twin Peaks,7.372881356
+1,Visitacion Valley,9.105263158
+1,South of Market,6.827586207
+1,Seacliff,6.666666667
+1,Presidio Heights,7.285714286
+1,Potrero Hill,7.559322034
+1,Pacific Heights,5.465116279
+1,Nob Hill,4.540697674
+1,Chinatown,5.5
+1,Bayview Hunters Point,8.484162896
+2,West of Twin Peaks,6.927272727
+2,Visitacion Valley,10.26229508
+2,South of Market,7.150943396
+2,Seacliff,8.333333333
+2,Presidio Heights,8.642857143
+2,Potrero Hill,7.975609756
+2,Pacific Heights,6.462962963
+2,Nob Hill,4.787878788
+2,Chinatown,6.629032258
+2,Bayview Hunters Point,9.088105727
+3,West of Twin Peaks,6.925
+3,Visitacion Valley,8.914893617
+3,South of Market,6.761336516
+3,Seacliff,6
+3,Presidio Heights,8
+3,Potrero Hill,8.24137931
+3,Pacific Heights,5.612244898
+3,Nob Hill,6.042735043
+3,Chinatown,8.307692308
+3,Bayview Hunters Point,8.323943662
+4,West of Twin Peaks,8.892857143
+4,Visitacion Valley,8.375
+4,South of Market,7.028901734
+4,Seacliff,9
+4,Presidio Heights,9
+4,Potrero Hill,8.033333333
+4,Pacific Heights,6.82
+4,Nob Hill,6.16091954
+4,Chinatown,5.526315789
+4,Bayview Hunters Point,8.295774648
+5,West of Twin Peaks,9.25
+5,Visitacion Valley,9.065217391
+5,South of Market,6.588424437
+5,Seacliff,5
+5,Presidio Heights,5.5
+5,Potrero Hill,7.28
+5,Pacific Heights,6.666666667
+5,Nob Hill,6.268041237
+5,Chinatown,7.6875
+5,Bayview Hunters Point,8.025806452
+6,West of Twin Peaks,7.627659574
+6,Visitacion Valley,9.777777778
+6,South of Market,7.704651163
+6,Seacliff,5.8
+6,Presidio Heights,9.333333333
+6,Potrero Hill,7.549019608
+6,Pacific Heights,7.463414634
+6,Nob Hill,6.842105263
+6,Chinatown,7.8
+6,Bayview Hunters Point,8.633064516
+7,West of Twin Peaks,9.119565217
+7,Visitacion Valley,8.637681159
+7,South of Market,7.598425197
+7,Seacliff,7
+7,Presidio Heights,6.890909091
+7,Potrero Hill,8.24691358
+7,Pacific Heights,7.709302326
+7,Nob Hill,6.760683761
+7,Chinatown,7.119402985
+7,Bayview Hunters Point,7.857615894
+8,West of Twin Peaks,7.952
+8,Visitacion Valley,10.70114943
+8,South of Market,7.967741935
+8,Seacliff,7.125
+8,Presidio Heights,8.230769231
+8,Potrero Hill,7.961038961
+8,Pacific Heights,8.271604938
+8,Nob Hill,7.45112782
+8,Chinatown,7.282828283
+8,Bayview Hunters Point,8.03030303
+9,West of Twin Peaks,6.761006289
+9,Visitacion Valley,9.154545455
+9,South of Market,8.410586552
+9,Seacliff,5.125
+9,Presidio Heights,6.588235294
+9,Potrero Hill,7.103174603
+9,Pacific Heights,6.431372549
+9,Nob Hill,7.0234375
+9,Chinatown,8.1875
+9,Bayview Hunters Point,7.418478261
+10,West of Twin Peaks,7.135802469
+10,Visitacion Valley,8.095238095
+10,South of Market,7.454545455
+10,Seacliff,7.466666667
+10,Presidio Heights,6.737704918
+10,Potrero Hill,6.346153846
+10,Pacific Heights,6.045801527
+10,Nob Hill,6.954285714
+10,Chinatown,7.925373134
+10,Bayview Hunters Point,7.763959391
+11,West of Twin Peaks,7.401197605
+11,Visitacion Valley,9.87804878
+11,South of Market,7.30738255
+11,Seacliff,4.5
+11,Presidio Heights,7.23880597
+11,Potrero Hill,6.532786885
+11,Pacific Heights,6.581632653
+11,Nob Hill,7.331606218
+11,Chinatown,6.73015873
+11,Bayview Hunters Point,8.289215686
+12,West of Twin Peaks,6.393258427
+12,Visitacion Valley,8.212962963
+12,South of Market,6.822829964
+12,Seacliff,4.3
+12,Presidio Heights,6.753846154
+12,Potrero Hill,6.910569106
+12,Pacific Heights,6.215686275
+12,Nob Hill,5.65625
+12,Chinatown,6.869863014
+12,Bayview Hunters Point,7.883333333
+13,West of Twin Peaks,5.747368421
+13,Visitacion Valley,8.404494382
+13,South of Market,7.300349243
+13,Seacliff,5.416666667
+13,Presidio Heights,7.526315789
+13,Potrero Hill,7.131147541
+13,Pacific Heights,5.519083969
+13,Nob Hill,6.172774869
+13,Chinatown,6.502824859
+13,Bayview Hunters Point,8.306179775
+14,West of Twin Peaks,7.384180791
+14,Visitacion Valley,8.427350427
+14,South of Market,7.224118316
+14,Seacliff,5.857142857
+14,Presidio Heights,6.087719298
+14,Potrero Hill,7.631147541
+14,Pacific Heights,6.061946903
+14,Nob Hill,6.671794872
+14,Chinatown,6.506097561
+14,Bayview Hunters Point,7.636591479
+15,West of Twin Peaks,7.367231638
+15,Visitacion Valley,8.178947368
+15,South of Market,7.391764706
+15,Seacliff,6.166666667
+15,Presidio Heights,5.793103448
+15,Potrero Hill,6.424050633
+15,Pacific Heights,6.588235294
+15,Nob Hill,6.205263158
+15,Chinatown,6.225
+15,Bayview Hunters Point,7.434108527
+16,West of Twin Peaks,6.932926829
+16,Visitacion Valley,9.256880734
+16,South of Market,7.310982659
+16,Seacliff,8.9
+16,Presidio Heights,7.264150943
+16,Potrero Hill,7.413793103
+16,Pacific Heights,6.420560748
+16,Nob Hill,5.886597938
+16,Chinatown,7.098039216
+16,Bayview Hunters Point,8.388888889
+17,West of Twin Peaks,8.209580838
+17,Visitacion Valley,8.669724771
+17,South of Market,7.451650943
+17,Seacliff,6.4
+17,Presidio Heights,6.413043478
+17,Potrero Hill,6.747663551
+17,Pacific Heights,6.956140351
+17,Nob Hill,7.171052632
+17,Chinatown,8.603773585
+17,Bayview Hunters Point,7.466145833
+18,West of Twin Peaks,7.163522013
+18,Visitacion Valley,8.339805825
+18,South of Market,7.217694994
+18,Seacliff,8.9
+18,Presidio Heights,7.396551724
+18,Potrero Hill,6.89
+18,Pacific Heights,6.432432432
+18,Nob Hill,6.218274112
+18,Chinatown,6.3125
+18,Bayview Hunters Point,7.62371134
+19,West of Twin Peaks,6.798319328
+19,Visitacion Valley,9.76
+19,South of Market,7.014942529
+19,Seacliff,11.52941177
+19,Presidio Heights,5.548387097
+19,Potrero Hill,6.326530612
+19,Pacific Heights,6.017391304
+19,Nob Hill,6.306451613
+19,Chinatown,6.684210526
+19,Bayview Hunters Point,6.954154728
+20,West of Twin Peaks,6.602564103
+20,Visitacion Valley,9.56302521
+20,South of Market,6.73420739
+20,Seacliff,8.833333333
+20,Presidio Heights,5.803921569
+20,Potrero Hill,6.752688172
+20,Pacific Heights,5.561797753
+20,Nob Hill,5.530927835
+20,Chinatown,6.552845528
+20,Bayview Hunters Point,7.943699732
+21,West of Twin Peaks,6.832167832
+21,Visitacion Valley,8.536585366
+21,South of Market,6.752793296
+21,Seacliff,10.6
+21,Presidio Heights,7.25
+21,Potrero Hill,7.323943662
+21,Pacific Heights,6.858823529
+21,Nob Hill,5.632432432
+21,Chinatown,6.248484848
+21,Bayview Hunters Point,7.25
+22,West of Twin Peaks,6.876811594
+22,Visitacion Valley,8.885057471
+22,South of Market,6.405633803
+22,Seacliff,11.6
+22,Presidio Heights,6.085714286
+22,Potrero Hill,7.366666667
+22,Pacific Heights,6.282608696
+22,Nob Hill,5.989473684
+22,Chinatown,6.8
+22,Bayview Hunters Point,8.36677116
+23,West of Twin Peaks,6.479166667
+23,Visitacion Valley,8.666666667
+23,South of Market,6.529325513
+23,Seacliff,11
+23,Presidio Heights,6.279069767
+23,Potrero Hill,7.5
+23,Pacific Heights,5.953125
+23,Nob Hill,5.213414634
+23,Chinatown,6.484210526
+23,Bayview Hunters Point,8.236933798
