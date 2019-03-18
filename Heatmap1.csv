@@ -1,0 +1,241 @@
+﻿Hour_of_the_Day,Neighbor,Response_Efficiency,#_Incidents
+23,West of Twin Peaks,6.48,96
+23,Visitacion Valley,8.67,48
+23,Tenderloin,5.70,901
+23,Seacliff,11.00,4
+23,Presidio Heights,6.28,43
+23,Potrero Hill,7.50,56
+23,Pacific Heights,5.95,64
+23,Nob Hill,5.21,164
+23,Chinatown,6.48,95
+23,Bayview Hunters Point,8.24,287
+22,West of Twin Peaks,6.88,138
+22,Visitacion Valley,8.89,87
+22,Tenderloin,5.77,1054
+22,Seacliff,11.60,5
+22,Presidio Heights,6.09,35
+22,Potrero Hill,7.37,60
+22,Pacific Heights,6.28,92
+22,Nob Hill,5.99,190
+22,Chinatown,6.80,90
+22,Bayview Hunters Point,8.37,319
+21,West of Twin Peaks,6.83,143
+21,Visitacion Valley,8.54,123
+21,Tenderloin,5.86,1077
+21,Seacliff,10.60,5
+21,Presidio Heights,7.25,28
+21,Potrero Hill,7.32,71
+21,Pacific Heights,6.86,85
+21,Nob Hill,5.63,185
+21,Chinatown,6.25,165
+21,Bayview Hunters Point,7.25,316
+20,West of Twin Peaks,6.60,156
+20,Visitacion Valley,9.56,119
+20,Tenderloin,6.07,1060
+20,Seacliff,8.83,6
+20,Presidio Heights,5.80,51
+20,Potrero Hill,6.75,93
+20,Pacific Heights,5.56,89
+20,Nob Hill,5.53,194
+20,Chinatown,6.55,123
+20,Bayview Hunters Point,7.94,373
+19,West of Twin Peaks,6.80,119
+19,Visitacion Valley,9.76,100
+19,Tenderloin,6.28,1177
+19,Seacliff,11.53,17
+19,Presidio Heights,5.55,31
+19,Potrero Hill,6.33,98
+19,Pacific Heights,6.02,115
+19,Nob Hill,6.31,248
+19,Chinatown,6.68,152
+19,Bayview Hunters Point,6.95,349
+18,West of Twin Peaks,7.16,159
+18,Visitacion Valley,8.34,103
+18,Tenderloin,6.51,1156
+18,Seacliff,8.90,10
+18,Presidio Heights,7.40,58
+18,Potrero Hill,6.89,100
+18,Pacific Heights,6.43,111
+18,Nob Hill,6.22,197
+18,Chinatown,6.31,128
+18,Bayview Hunters Point,7.62,388
+17,West of Twin Peaks,8.21,167
+17,Visitacion Valley,8.67,109
+17,Tenderloin,7.18,1217
+17,Seacliff,6.40,5
+17,Presidio Heights,6.41,46
+17,Potrero Hill,6.75,107
+17,Pacific Heights,6.96,114
+17,Nob Hill,7.17,152
+17,Chinatown,8.60,106
+17,Bayview Hunters Point,7.47,384
+16,West of Twin Peaks,6.93,164
+16,Visitacion Valley,9.26,109
+16,Tenderloin,6.63,1310
+16,Seacliff,8.90,10
+16,Presidio Heights,7.26,53
+16,Potrero Hill,7.41,116
+16,Pacific Heights,6.42,107
+16,Nob Hill,5.89,194
+16,Chinatown,7.10,153
+16,Bayview Hunters Point,8.39,360
+15,West of Twin Peaks,7.37,177
+15,Visitacion Valley,8.18,95
+15,Tenderloin,6.57,1227
+15,Seacliff,6.17,6
+15,Presidio Heights,5.79,58
+15,Potrero Hill,6.42,158
+15,Pacific Heights,6.59,119
+15,Nob Hill,6.21,190
+15,Chinatown,6.23,120
+15,Bayview Hunters Point,7.32,388
+14,West of Twin Peaks,7.38,177
+14,Visitacion Valley,8.43,117
+14,Tenderloin,6.79,1194
+14,Seacliff,5.86,7
+14,Presidio Heights,6.09,57
+14,Potrero Hill,7.63,122
+14,Pacific Heights,6.06,113
+14,Nob Hill,6.67,195
+14,Chinatown,6.51,164
+14,Bayview Hunters Point,7.64,399
+13,West of Twin Peaks,5.75,190
+13,Visitacion Valley,8.40,89
+13,Tenderloin,6.75,1204
+13,Seacliff,5.42,12
+13,Presidio Heights,7.53,57
+13,Potrero Hill,7.13,122
+13,Pacific Heights,5.52,131
+13,Nob Hill,6.17,191
+13,Chinatown,6.50,177
+13,Bayview Hunters Point,8.31,356
+12,West of Twin Peaks,6.39,178
+12,Visitacion Valley,8.21,108
+12,Tenderloin,6.44,1107
+12,Seacliff,4.30,10
+12,Presidio Heights,6.75,65
+12,Potrero Hill,6.91,123
+12,Pacific Heights,6.22,102
+12,Nob Hill,5.66,192
+12,Chinatown,6.87,146
+12,Bayview Hunters Point,7.88,360
+11,West of Twin Peaks,7.40,167
+11,Visitacion Valley,9.88,82
+11,Tenderloin,7.01,1107
+11,Seacliff,4.50,8
+11,Presidio Heights,7.24,67
+11,Potrero Hill,6.53,122
+11,Pacific Heights,6.58,98
+11,Nob Hill,7.33,193
+11,Chinatown,6.73,126
+11,Bayview Hunters Point,8.29,408
+10,West of Twin Peaks,7.14,162
+10,Visitacion Valley,8.10,84
+10,Tenderloin,6.94,1004
+10,Seacliff,7.47,15
+10,Presidio Heights,6.74,61
+10,Potrero Hill,6.35,130
+10,Pacific Heights,6.05,131
+10,Nob Hill,6.95,175
+10,Chinatown,7.93,134
+10,Bayview Hunters Point,7.76,394
+9,West of Twin Peaks,6.76,159
+9,Visitacion Valley,9.15,110
+9,Tenderloin,7.53,998
+9,Seacliff,5.13,8
+9,Presidio Heights,6.59,68
+9,Potrero Hill,7.10,126
+9,Pacific Heights,6.43,102
+9,Nob Hill,7.02,128
+9,Chinatown,8.19,128
+9,Bayview Hunters Point,7.42,368
+8,West of Twin Peaks,7.95,125
+8,Visitacion Valley,10.70,87
+8,Tenderloin,7.47,838
+8,Seacliff,7.13,8
+8,Presidio Heights,8.23,52
+8,Potrero Hill,7.96,77
+8,Pacific Heights,8.27,81
+8,Nob Hill,7.45,133
+8,Chinatown,7.28,99
+8,Bayview Hunters Point,8.03,363
+7,West of Twin Peaks,9.12,92
+7,Visitacion Valley,8.64,69
+7,Tenderloin,7.23,707
+7,Seacliff,7.00,7
+7,Presidio Heights,6.89,55
+7,Potrero Hill,8.25,81
+7,Pacific Heights,7.71,86
+7,Nob Hill,6.76,117
+7,Chinatown,7.12,67
+7,Bayview Hunters Point,7.86,302
+6,West of Twin Peaks,7.63,94
+6,Visitacion Valley,9.78,54
+6,Tenderloin,7.08,543
+6,Seacliff,5.80,5
+6,Presidio Heights,9.33,18
+6,Potrero Hill,7.55,51
+6,Pacific Heights,7.46,41
+6,Nob Hill,6.84,95
+6,Chinatown,7.80,40
+6,Bayview Hunters Point,8.63,248
+5,West of Twin Peaks,9.25,56
+5,Visitacion Valley,9.07,46
+5,Tenderloin,6.32,432
+5,Seacliff,5.00,3
+5,Presidio Heights,5.50,14
+5,Potrero Hill,7.28,25
+5,Pacific Heights,6.67,45
+5,Nob Hill,6.27,97
+5,Chinatown,7.69,48
+5,Bayview Hunters Point,8.03,155
+4,West of Twin Peaks,8.89,56
+4,Visitacion Valley,8.38,32
+4,Tenderloin,6.06,448
+4,Seacliff,9.00,3
+4,Presidio Heights,9.00,21
+4,Potrero Hill,8.03,30
+4,Pacific Heights,6.82,50
+4,Nob Hill,6.16,87
+4,Chinatown,5.53,38
+4,Bayview Hunters Point,8.30,142
+3,West of Twin Peaks,6.93,40
+3,Visitacion Valley,8.91,47
+3,Tenderloin,6.19,524
+3,Seacliff,6.00,4
+3,Presidio Heights,8.00,13
+3,Potrero Hill,8.24,29
+3,Pacific Heights,5.61,49
+3,Nob Hill,6.04,117
+3,Chinatown,8.31,39
+3,Bayview Hunters Point,8.32,142
+2,West of Twin Peaks,6.93,55
+2,Visitacion Valley,10.26,61
+2,Tenderloin,5.81,624
+2,Seacliff,8.33,6
+2,Presidio Heights,8.64,14
+2,Potrero Hill,7.98,41
+2,Pacific Heights,6.46,54
+2,Nob Hill,4.79,165
+2,Chinatown,6.63,62
+2,Bayview Hunters Point,9.09,227
+1,West of Twin Peaks,7.37,59
+1,Visitacion Valley,9.11,38
+1,Tenderloin,5.78,695
+1,Seacliff,6.67,3
+1,Presidio Heights,7.29,28
+1,Potrero Hill,7.56,59
+1,Pacific Heights,5.47,43
+1,Nob Hill,4.54,172
+1,Chinatown,5.50,74
+1,Bayview Hunters Point,8.48,221
+0,West of Twin Peaks,6.97,93
+0,Visitacion Valley,9.57,61
+0,Tenderloin,5.54,744
+0,Seacliff,6.67,3
+0,Presidio Heights,7.19,21
+0,Potrero Hill,6.29,45
+0,Pacific Heights,6.04,76
+0,Nob Hill,4.80,161
+0,Chinatown,6.68,68
+0,Bayview Hunters Point,8.79,222

@@ -1,8 +1,5 @@
 
-circle {
-  stroke: white;
-  stroke-width: 2px;
-}
+
 
 text, .tooltip {
   font-family: sans-serif;
@@ -23,4 +20,11 @@ text, .tooltip {
   border: 1px solid #eee;
   border-radius: 10px;
   z-index: 999
+}
+
+
+
+text.axis-title, text.legendTitle {
+  font-size: 16px;
+  font-weight: bold;
 }
