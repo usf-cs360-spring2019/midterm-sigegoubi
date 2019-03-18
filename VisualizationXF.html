@@ -11,6 +11,7 @@
   <!-- bulma 0.7.2 and font awesome v5.7.1 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" integrity="sha256-2pUeJf+y0ltRPSbKOeJh09ipQFYxUdct5nTY6GAXswA=" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <!-- body -->
@@ -105,8 +106,8 @@
       <!-- todo: modify as necessary (or move visualizations to separate pages) -->
       <h2>Visualization by Xue Feng</h2>
 
-      <svg width="100%" height="400" style="background-color: whitesmoke; border: 1px solid black;">
-      </svg>
+      <svg id="bubbleChart">
+          </svg>
 
       <h3>Interpretation</h3>
 
@@ -147,6 +148,14 @@
       </small>
     </div>
   </footer>
+
+<!-- include d3.js -->
+<!-- <script src="http://d3js.org/d3.v3.js"></script> -->
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<!-- <script src="d3.legend.js"></script> -->
+<!-- include d3-legend: https://d3-legend.susielu.com/ -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js" integrity="sha256-qo76Vs9B6JAALbrTn+PcN1r09hbNLd2M78V19glOMeU=" crossorigin="anonymous"></script>
+<script src="bubbleChart.js"></script>
 
 <!-- end body and html -->
 </body>
