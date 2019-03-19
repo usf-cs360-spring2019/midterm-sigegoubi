@@ -1,4 +1,4 @@
-const width = 1280;
+const width = 960;
 const height = 600;
 const svg = d3.select("svg#heatmap");
 console.assert(svg.size() == 1);
