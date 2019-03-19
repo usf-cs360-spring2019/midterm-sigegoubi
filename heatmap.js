@@ -9,7 +9,7 @@ svg.attr("height", height);
 const margin = {
   top: 100,
   bottom: 40,
-  left: 160,
+  left: 180,
   right: 40
 };
 
@@ -70,17 +70,21 @@ d3.csv("Heatmap1.csv").then(function(data){
     .call(d3.axisBottom(x).tickSize(0))
     .select(".domain").remove()
 
+
   // Build Y scales and axis:
   var y = d3.scaleBand()
     .range([height - margin.top - margin.bottom, 0])
     .domain(SortedNeighbor)
     .padding(0.05);
   svg.append("g")
-    .attr("id", "yAxis")
-    .style("font-size", 15)
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
-    .call(d3.axisLeft(y).tickSize(0))
-    .select(".domain").remove()
+      .attr("id", "yAxis")
+      .style("font-size", 15)
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+      .call(d3.axisLeft(y).tickSize(0))
+      .select(".domain").remove()
+
+
+
 
   function midpoint(range) {
     return range[0] + (range[1] - range[0]) / 2.0;
@@ -117,7 +121,7 @@ d3.csv("Heatmap1.csv").then(function(data){
   yTitle.attr("transform", "rotate(-90)");
 
   // Build color scale
-  var colorScale = d3.scaleDiverging(d3.interpolateRdYlGn)
+  var colorScale = d3.scaleDiverging(d3.interpolateBrBG)
     .domain([3, 8, 15]);
 
 

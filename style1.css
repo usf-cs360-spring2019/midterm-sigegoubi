@@ -22,6 +22,20 @@ text, .tooltip {
   z-index: 999
 }
 
+#yAxis g.tick:not(:nth-child(n + 6)) text {
+  fill: #165e83;
+  font-weight: bold;
+}
+
+#yAxis g.tick:nth-child(n + 6) text {
+  fill: #bf242a;
+  font-weight: bold;
+}
+
+#xAxis g.tick text {
+  fill: #180614;
+  font-weight: bold;
+}
 
 
 text.axis-title, text.legendTitle {
