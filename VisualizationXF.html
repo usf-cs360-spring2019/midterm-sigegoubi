@@ -104,7 +104,7 @@
   <section class="section">
     <div class="container content">
       <!-- todo: modify as necessary (or move visualizations to separate pages) -->
-      <h2>Visualization by Xue Feng</h2>
+      <h2>D3 Version</h2>
 
       <svg id="bubbleChart">
           </svg>
@@ -112,13 +112,23 @@
       <h3>Interpretation</h3>
 
       <p>
-        This bubble chart represents how fast San Francisco Fire Department responses. The efficieny is measured by two different time ranges in x, y axis correspondly, which are 1) time difference between Dispatch time and Received time, 2) time difference between Dispatch time and On Scene time. Each bubble represents a different region in San Francisco, with 41 regions in total. The color of the bubble chart represents the location measured by the continuous variable, Latitude, from South to North. At the same time, each bubble in the chart indicates the count of incidents in each region.
+        This D3 version bubble chart is built based on its prototype. As same as before, it represents how fast San Francisco Fire Department responses. The efficieny is measured by two different time ranges in x, y axis correspondly, which are 1) time difference between Dispatch time and Received time, 2) time difference between Dispatch time and On Scene time. Each bubble represents a different region in San Francisco, with 41 regions in total. The color of the bubble chart represents the location measured by the continuous variable, Latitude, from South to North. At the same time, each bubble in the chart indicates the count of incidents in each region.
       </p>
 
       <h3>Discussion</h3>
 
       <p>
-        The interactive part...
+        Here are several <b>improvements/changes</b> that are added on this D3 version bubble chart:<br/><br/>
+        <b>1) Interactive functionalities are updated.</b><br/><br/>
+        - The highlight will be shown when the user mouse over a single bubble.<br/>
+        - Details of a sungle bubble are shown in a text box when the user hover over the bubble.<br/>
+        For example, if the user mouse over the most left bubble on the chart above, the detail information such as its x,y axis valuea and the latitude of the region are shown like below. It's easier and clearer to read the data accurately.<br/>
+        <br/>
+        <img src="bubbleChartEx.png" width="256" height="256" class="center">
+        <br/><br/>
+        <b>2) You may find this D3 version bubble chart is slightly different from the prototype version in bubble's color.</b><br/><br/>
+        - Since there's no exactly the same color that I can find (<a href="https://github.com/d3/d3-scale-chromatic">source link</a>), I used the closest color of the prototype.<br/><br/>
+        <img src="bubbleChartEx2.png" width="512" height="512" class="center">
       </p>
     </div>
   </section>
