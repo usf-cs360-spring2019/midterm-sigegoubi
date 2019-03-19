@@ -1,4 +1,4 @@
-﻿Region,Avg_Dispatch_to_Received,Latitude,Avg_Scene_to_Dispatch,Number_of_Incidents
+﻿Region,Received_to_Dispatch,Latitude,Dispatch_to_OnScene,Number_of_Incidents
 Western Addition,136.757187258,37.782418732,434.274247974,429
 West of Twin Peaks,152.747019943,37.734202815,432.393165070,280
 Visitacion Valley,140.333726877,37.712242274,514.786304606,121

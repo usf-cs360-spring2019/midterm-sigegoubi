@@ -33,7 +33,8 @@ var plotWidth = width - margin.right - margin.left;
 var plotHeight = height - margin.top - margin.bottom;
 
 // select svg
-const svg = d3.select("#bubbleChart");
+const svg = d3.select("#bubbleChart")
+            .attr("id", "bubbleChart");
 console.assert(svg.size() == 1);
 
 // set svg size
@@ -66,7 +67,7 @@ const sizeScale = d3.scaleSqrt()
 
 // the RdYlBu scheme is available both in tableau and d3
 const colorScale = d3.scaleDiverging(d3.interpolateYlGnBu)
-  .domain([37.7122, 37.79, 37.8235]);
+  .domain([37.7122, 37.765, 37.8235]);
 
 // since we do not need the data for our domains, we can draw our axis/legends right away
 drawAxis();
@@ -208,13 +209,86 @@ function drawBubble(data) {
     .append("circle");
 
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
-  bubbles.attr("cx", d => xScale(d.Avg_Dispatch_to_Received));
-  bubbles.attr("cy", d => yScale(d.Avg_Scene_to_Dispatch));
+  bubbles.attr("cx", d => xScale(d.Received_to_Dispatch));
+  bubbles.attr("cy", d => yScale(d.Dispatch_to_OnScene));
   bubbles.attr("r",  d => sizeScale(d.Number_of_Incidents));
 
   bubbles.style("stroke", "gray");
   bubbles.style("fill", d => colorScale(d.Latitude));
-  // bubbles.attr("data-legend", d => createLegend(d.type))
+
+
+  //Interactivity: highlight & show info when mouse hover over the bubble.
+  //d is orginal data for a single circle.
+  bubbles.on("mouseover.highlight", function(d){
+
+    d3.select(this) //the specific circles
+    .raise()
+    .style("stroke", "black")
+    .style("stroke-width", 2);
+  });
+
+  bubbles.on("mouseout.highlight", function(d){
+    d3.select(this).style("stroke", "grey")
+    .lower()
+    .style("stroke-width", 1);
+  });
+
+  bubbles.on("mouseover.hover2", function(d) {
+        let me = d3.select(this);
+        let div = d3.select("body").append("div");
+
+        div.attr("id", "details");
+        div.attr("class", "tooltip");
+
+        let rows = div.append("table")
+          .selectAll("tr")
+          .data(Object.keys(d))
+          .enter()
+          .append("tr");
+
+        rows.append("th").text(key => key);
+        rows.append("td").text(key => d[key]);
+      });
+
+    bubbles.on("mousemove.hover2", function(d) {
+        let div = d3.select("div#details");
+
+        // get height of tooltip
+        let bbox = div.node().getBoundingClientRect();
+
+        var coordinates= d3.mouse(this);
+        var x = coordinates[0] + 80;
+        var y = coordinates[1] + 200;
+
+        div.style("left", x + "px")
+        div.style("top",  y + "px");
+      });
+
+    bubbles.on("mouseout.hover2", function(d) {
+        d3.selectAll("div#details").remove();
+      });
+
+  // // annotation layer to keep labels on top of data
+  // svg.append("g").attr("id", "annotation");
+  //
+  // annotations = d3.select("g#annotation");
+  //
+  // bubbles.on("mouseover.hover1", function(d) {
+  //     let me = d3.select(this);
+  //
+  //     annotations.insert("text")
+  //       .attr("id", "label")
+  //       .attr("x", me.attr("cx"))
+  //       .attr("y", me.attr("cy"))
+  //       .attr("dy", me.attr("r") + 14)
+  //       .attr("text-anchor", "middle")
+  //       .text(d.Latitude);
+  //   });
+  //
+  // bubbles.on("mouseout.hover1", function(d) {
+  //     annotations.select("text#label").remove();
+  //   });
+
 }
 
 function createColor(data){
@@ -350,9 +424,9 @@ function convert(row) {
   let keep = {}
 
   keep.Region = row.Region;
-  keep.Avg_Dispatch_to_Received = parseInt(row.Avg_Dispatch_to_Received);
+  keep.Received_to_Dispatch = parseInt(row.Received_to_Dispatch);
   keep.Latitude = parseFloat(row.Latitude);
-  keep.Avg_Scene_to_Dispatch = parseInt(row.Avg_Scene_to_Dispatch);
+  keep.Dispatch_to_OnScene = parseInt(row.Dispatch_to_OnScene);
   keep.Number_of_Incidents = parseInt(row.Number_of_Incidents);
 
   return keep;

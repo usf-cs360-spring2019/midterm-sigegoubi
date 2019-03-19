@@ -44,7 +44,23 @@ text.axis-title, text.legendTitle {
 }
 
 .legendCells circle.swatch {
-  fill: none;
+  fill: white;
   stroke: #888888;
   stroke-width: 2;
+}
+
+.tooltip {
+  position: absolute;
+  width: auto;
+  height: auto;
+  padding: 8px;
+  background: #ddd;
+  pointer-events: none;
+  border: 1px solid #eee;
+  border-radius: 10px;
+}
+
+text, .tooltip {
+  font-family: sans-serif;
+  font-size: 10pt;
 }
