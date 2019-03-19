@@ -343,7 +343,8 @@ function drawTitles() {
 
   let Title = svg.append("text")
     .attr("class", "title")
-    .text("SFFD Efficiency Measured by Neighborhoods");
+    .text("SFFD Efficiency Measured by Neighborhoods")
+    .style("font-size", "20px");
 
   Title.attr("x", xMiddle);
   Title.attr("y", margin.top);
