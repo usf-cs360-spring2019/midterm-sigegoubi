@@ -69,3 +69,15 @@ text, .tooltip {
   margin-left: auto;
   margin-right: auto;
 }
+.title {
+  font-size: 20px;
+}
+.tick line,
+path.domain {
+ stroke: #D3D3D3;
+}
+text.axis-title, text.legendTitle {
+  font-size: 12px;
+  font-weight: normal;
+
+}

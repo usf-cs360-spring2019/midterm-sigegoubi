@@ -323,7 +323,7 @@ function drawCircleLegend() {
     .shapePadding(7)
     .labelOffset(10)
     .labelFormat("d")
-    .title('Number Incidents')
+    .title('# incidents')
     .orient('horizontal')
 
   legend.call(legendSize);
@@ -352,7 +352,7 @@ function drawTitles() {
 
   let xTitle = svg.append("text")
     .attr("class", "axis-title")
-    .text("Received Time to Dispatch Time(s)");
+    .text("Received Time to Dispatch Time (s)");
 
   xTitle.attr("x", xMiddle);
   xTitle.attr("y", height);
@@ -368,7 +368,7 @@ function drawTitles() {
 
   let yTitle = yGroup.append("text")
     .attr("class", "axis-title")
-    .text("Dispatch Time to On-Scene Time(s)");
+    .text("Dispatch Time to On-Scene Time (s)");
 
   // keep x, y at 0, 0 for rotation around the origin
   yTitle.attr("x", 0);
