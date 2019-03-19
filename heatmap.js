@@ -61,7 +61,7 @@ d3.csv("Heatmap1.csv").then(function(data){
   // Build X scales and axis:
   var x = d3.scaleBand()
     .range([ 0, width - margin.left - margin.right])
-    .domain(Hours)
+    .domain(Hours.reverse())
     .padding(0.05);
   svg.append("g")
     .attr("id", "xAxis")
