@@ -152,6 +152,148 @@
       </b>
       </p>
 
+      <h2>Extra Credit</h2>
+
+      <b>Vis#1 - Number of Incidents of SFFD from 41 Regions in San Francisco</b><br/><br/>
+
+      <head>
+    <title>Vega-Lite Bar Chart</title>
+    <meta charset="utf-8" />
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.3.0/build/vega.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@3.0.0-rc15/build/vega-lite.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@4.0.0-rc1/build/vega-embed.js"></script>
+
+    <style media="screen">
+      /* Add space between Vega-Embed links  */
+      .vega-actions a {
+        margin-right: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Container for the visualization -->
+    <div id="vis"></div>
+
+    <script>
+      // Assign the specification to a local variable vlSpec.
+      var vlSpec = {
+        $schema: 'https://vega.github.io/schema/vega-lite/v3.json',
+        data: {
+          values: [
+
+            {Region: 'Lincoln Park', b: 20},
+            {Region: 'McLaren Park', b: 21},
+            {Region: 'Seacliff', b: 39},
+            {Region: 'Golden Gate Park', b: 91},
+            {Region: 'Presidio', b: 129},
+            {Region: 'Glen Park', b: 151},
+            {Region: 'Twin Peaks', b: 152},
+            {Region: 'Presidio Heights', b: 164},
+            {Region: 'Treasure Island', b: 192},
+            {Region: 'Japantown', b: 202},
+            {Region: 'Noe Valley', b: 246},
+            {Region: 'Visitacion Valley', b: 248},
+            {Region: 'Lone Mountain', b: 262},
+            {Region: 'Inner Richmond', b: 279},
+            {Region: 'Portola', b: 290},
+            {Region: 'Lakeshore', b: 345},
+            {Region: 'Inner Richmond', b: 369},
+            {Region: 'Portola', b: 374},
+            {Region: 'Lakeshore', b: 398},
+            {Region: 'Inner Sunset', b: 406},
+            {Region: 'Outer Mission', b: 450},
+            {Region: 'Haight Ashbury', b: 452},
+            {Region: 'Oceanview/Merced/Ingleside', b: 468},
+            {Region: 'Mission Bay', b: 473},
+            {Region: 'Russian Hill', b: 486},
+            {Region: 'Bernal Heights', b: 499},
+            {Region: 'Hayes Valley', b: 521},
+            {Region: 'Excelsior', b: 542},
+            {Region: 'West of Twin Peaks', b: 629},
+            {Region: 'Outer Richmond', b: 683},
+            {Region: 'Nob Hill', b: 741},
+            {Region: 'Western Addition', b: 975},
+            {Region: 'Sunset/Parkside', b: 946},
+            {Region: 'Bayview Hunters Point', b: 1222},
+            {Region: 'Financial District/South Beach', b: 1726},
+            {Region: 'Mission', b: 2227},
+            {Region: 'South of Market', b: 2553},
+            {Region: 'Tenderloin', b: 3481},
+          ]
+        },
+        mark: 'bar',
+        encoding: {
+          x: {field: 'Region', type: 'nominal',sort: {encoding:"y", order:"ascending"}},
+          y: {
+            field: 'b',
+            type: 'quantitative',
+
+            axis: {
+              title: 'Number of Incident'
+            }
+          }
+        }
+      };
+
+      // Embed the visualization in the container with id `vis`
+      vegaEmbed('#vis', vlSpec);
+    </script>
+  </body>
+
+
+
+  <br/><br/><br/><b>Vis#2 - Top 10 Number of Records Distribution of SFFD Call Type</b><br/><br/>
+  <body>
+
+   <!-- Container for the visualization -->
+   <div id="vis2"></div>
+
+   <script>
+
+     // Assign the specification to a local variable vlSpec.
+     var vlSpec = {
+       $schema: 'https://vega.github.io/schema/vega-lite/v3.json',
+       data: {
+         values: [
+         {a: 'Elevator / Escalator Rescue', b: 67},
+         {a: 'Vehicle Fire', b: 69},
+         {a: 'Water Rescue', b: 147},
+         {a: 'Gas Leak (Natural and LP Gases)', b: 153},
+         {a: 'Electrical Hazard', b: 228},
+         {a: 'Outside Fire', b: 317},
+         {a: 'Citizen Assist / Service Call', b: 393},
+         {a: 'Traffic Collision', b: 784},
+         {a: 'Structure Fire', b: 2088},
+         {a: 'Alarms', b: 3189},
+         {a: 'Medical Incident', b: 16495}
+         ]
+       },
+       mark: 'bar',
+       encoding: {
+         x: {field: 'b',
+           type: 'quantitative',
+           axis: {
+             title: 'Number of Records'
+           },
+           },
+         y: {
+           field: 'a',
+           type: 'nominal',
+           sort: {encoding:"y", order:"descending"},
+           axis: {
+             title: 'Call Types'
+           }
+         }
+       }
+     };
+
+     // Embed the visualization in the container with id `vis`
+     vegaEmbed('#vis2', vlSpec);
+   </script>
+ </body>
+
   <!-- footer -->
   <footer class="footer">
     <div class="content has-text-centered">
